@@ -42,6 +42,8 @@
     color: black;
 }
 
+/* >-----------------------HEADER RESPONSIVO-----------------------< */
+
 @media screen and (max-width:720px) {
     .navigation {
         display: none;
@@ -54,16 +56,17 @@
 
     .container__img {
         display: flex;
-        justify-content: center;
-        width: 80px;
-        margin-left: 30px;
+        justify-content: flex-start;
+        width: 100%;
     }
     
     .container__img img {
         width: 80px;
+        margin-left: 30%;
     }
 
-    /* MENU HAMBURGUER */
+    /* >-----------------------MENU HAMBURGUER-----------------------< */
+
     .hamburguer {
         display: flex;
         justify-content: center;
