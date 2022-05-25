@@ -7,3 +7,7 @@
 #### - 23/05: Primeiro commit contendo a primeira versão da header e parte da main [Desktop e Responsivo];
 
 #### - 24/05: Segundo commit contendo primeira versão da main [Desktop e Responsivo] e footer [desktop];
+
+#### - 25/05: Terceiro commit contendo primeira versão do site [Desktop e Responsivo];
+
+##### Site estruturado numa tela 1388px, mas respondendo bem entre 380px a 2200px.
