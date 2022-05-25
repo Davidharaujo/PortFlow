@@ -44,7 +44,7 @@
 
 /* >-----------------------HEADER RESPONSIVO-----------------------< */
 
-@media screen and (max-width:720px) {
+@media screen and (max-width:590px) {
     .navigation {
         display: none;
     }

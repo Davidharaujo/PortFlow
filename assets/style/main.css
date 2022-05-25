@@ -25,7 +25,23 @@
 }
 
 .chamada__link {
+    border: transparent;
+    background-color: transparent;
+    height: 30px;
+    width: 170px;
     font-size: 20px;
+}
+
+.chamada__link:hover {
+    background-color: rgb(255, 208, 0);
+    color: #000;
+    font-weight: 600;
+    animation: move 2s;
+}
+
+@keyframes move{
+    0% { width: 0; } 
+    100% { width: 170px;}
 }
 
 /* >-----------------------CHAMADA RESPONSIVA-----------------------< */
@@ -75,7 +91,7 @@
 
 /* >-------------------ORDER RESPONSIVO-------------------< */
 
-@media screen and (max-width:720px) {
+@media screen and (max-width:590px) {
 
     .img__1 {
         order: 10;

@@ -1,3 +1,5 @@
+/* >-----------------------FOOTER DA PAGE-----------------------< */
+
 .container-footer {
     display: flex;
     padding-left:6vw;
@@ -9,7 +11,7 @@
 .contato {
     display: flex;
     height: 90px;
-    width: 30%;
+    width: 50%;
     margin-right: 9vw;
     justify-content: center;
     align-items: center;
@@ -37,6 +39,7 @@
 
 .referencias{
     display: flex;
+    width: 80%;
     justify-content: center;
     flex-direction: column;
     font-size: 12px;
@@ -46,7 +49,9 @@
     display: none;
 }
 
-@media screen and (max-width:720px) {
+/* >--------------------FOOTER RESPONSIVO--------------------< */
+
+@media screen and (max-width:590px) {
     .container-footer {
         display: flex;
         background-color: white;
@@ -54,50 +59,53 @@
         padding: 0;
         margin: 0 auto;
         align-items: center;
-        justify-content: center;
         flex-direction: column;
     }
 
     .contato {
-        width: 580px;
+        width: 290px;
         height: 40px;
         background-color: #7FDBD4;
         margin-bottom: 15px;
-        margin-right: 0;
-    }
-
-    .redes {
-        width: 50%;
+        margin-right: 8px;
+        margin-left: 8px;
     }
 
     .redes__img {
-        height: 25px;
+        height: 20px;
     }
 
     .copyright {
-        display: flex;
-        justify-content: flex-start;
+        width: 290px;
         align-items: flex-start;
-        font-size: 15px;
+        justify-content: flex-start;
     }
+
     .referencias {
-        display: flex;
-        height: 100px;
-        width: 150px;
-        flex-flow: row wrap;
+        width: 290px;
         justify-content: flex-start;
-        align-items: flex-start;
+        flex-flow: row wrap;
+    }
+
+    .referencias p {
+        width: 200px;
     }
 
     .topo {
         display: flex;
-        background-color: #1C1C1C;
-        color: #707070;
-        border: transparent;
-        font-weight: bold;
-        width: 60px;
         height: 30px;
-        padding-left: 12px;
-        padding-top: 6px;
+        width: 80px;
+        border: transparent;
+        background-color: #1C1C1C;
+        padding-left: 23px;
+        padding-top: 7px;
+        font-weight: 600;
+        margin-left: 5px;
     }
+
+    .topo a {
+        text-decoration: none;
+        color: #707070;
+    }
+
 }
