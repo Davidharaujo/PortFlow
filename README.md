@@ -10,4 +10,8 @@
 
 #### - 25/05: Terceiro commit contendo primeira versão do site [Desktop e Responsivo];
 
+#### - 30/05: Commit final e deploy do site na Github Pages.
+
+### Site: https://davidharaujo.github.io/PortFlow/
+
 ##### Site estruturado numa tela 1388px, mas respondendo bem entre 380px a 2200px.
