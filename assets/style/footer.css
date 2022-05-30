@@ -22,7 +22,13 @@
     align-items: center;
     justify-content: center;
     width: 50%;
+    height: 50px;
 }
+
+.redes:hover {
+    background-color: #007FD3;
+}
+
 .redes__img {
     height: 30px;
     cursor: pointer;
